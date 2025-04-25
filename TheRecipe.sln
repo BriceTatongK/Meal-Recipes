@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheRecipe", "TheRecipe.csproj", "{66F38561-75F6-41ED-A087-32F7BFF6E49A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{1FDBCDD2-5444-4E3D-9181-9BA285FBE103}"
+	ProjectSection(SolutionItems) = preProject
+		analysing.txt = analysing.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MealRecipeLogClient", "..\MealRecipeLogClient\MealRecipeLogClient.csproj", "{DC26129D-15FB-4664-A87B-F88969FE58DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MealRecipeLogger", "..\MealRecipeLogger\MealRecipeLogger.csproj", "{8B4903A4-9D22-469C-853B-EDCFE2F9C3FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MealRecipeModels", "..\MealRecipeModels\MealRecipeModels.csproj", "{4682737B-17DB-4F65-8473-F6D16529C201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiN", "..\MauiN\MauiN.csproj", "{51589EFD-80B0-43D0-A548-C85275343B51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66F38561-75F6-41ED-A087-32F7BFF6E49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F38561-75F6-41ED-A087-32F7BFF6E49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F38561-75F6-41ED-A087-32F7BFF6E49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F38561-75F6-41ED-A087-32F7BFF6E49A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC26129D-15FB-4664-A87B-F88969FE58DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC26129D-15FB-4664-A87B-F88969FE58DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC26129D-15FB-4664-A87B-F88969FE58DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC26129D-15FB-4664-A87B-F88969FE58DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B4903A4-9D22-469C-853B-EDCFE2F9C3FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4903A4-9D22-469C-853B-EDCFE2F9C3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4903A4-9D22-469C-853B-EDCFE2F9C3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4903A4-9D22-469C-853B-EDCFE2F9C3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4682737B-17DB-4F65-8473-F6D16529C201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4682737B-17DB-4F65-8473-F6D16529C201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4682737B-17DB-4F65-8473-F6D16529C201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4682737B-17DB-4F65-8473-F6D16529C201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51589EFD-80B0-43D0-A548-C85275343B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51589EFD-80B0-43D0-A548-C85275343B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51589EFD-80B0-43D0-A548-C85275343B51}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{51589EFD-80B0-43D0-A548-C85275343B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51589EFD-80B0-43D0-A548-C85275343B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51589EFD-80B0-43D0-A548-C85275343B51}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34EB8AD6-8315-49ED-BE2C-DE793CBDE977}
+	EndGlobalSection
+EndGlobal
